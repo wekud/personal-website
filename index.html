@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">我的主页</div>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#hobbies">兴趣爱好</a></li>
+                <li><a href="#photos">摄影作品</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="avatar">🐱</div>
+            <h1>你好，我是小明</h1>
+            <p class="subtitle">欢迎来到我的个人主页</p>
+            <button onclick="sayHello()">点我打个招呼</button>
+            <p id="greeting"></p>
+        </section>
+
+        <section id="about" class="card">
+            <h2>关于我</h2>
+            <p>我是一个热爱学习的新手程序员，正在探索网页开发的世界。</p>
+            <p>这里是我的个人主页，记录我的学习和生活。</p>
+        </section>
+
+        <section id="hobbies" class="card">
+            <h2>兴趣爱好</h2>
+            <ul class="hobby-list">
+                <li>🎮 打游戏</li>
+                <li>🐱 吸猫</li>
+                <li>🎵 听音乐</li>
+                <li>💻 写代码</li>
+            </ul>
+        </section>
+
+        <section id="photos" class="card">
+            <h2>摄影作品</h2>
+            <p class="gallery-desc">用镜头记录生活中的美好瞬间</p>
+            <div class="gallery">
+                <div class="photo-item">
+                    <img src="images/105a5eb5dd01baeead3dad267a2d43ab_720.jpg" alt="摄影作品">
+                    <p class="photo-title">作品 1</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/1772e6d41f18d0134bea8ff7ae049e58_720.jpg" alt="摄影作品">
+                    <p class="photo-title">作品 2</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/59cc1fd592b226123db2edd06d6f7830_720.jpg" alt="摄影作品">
+                    <p class="photo-title">作品 3</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/5d90f179d89058eee21f7beeefbf8a25_720.jpg" alt="摄影作品">
+                    <p class="photo-title">作品 4</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/6ccdead9d03f4b87cd35566a0a9ddfec_720.jpg" alt="摄影作品">
+                    <p class="photo-title">作品 5</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/6e25c71402d834631d5472dea5aed787_720.jpg" alt="摄影作品">
+                    <p class="photo-title">作品 6</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/716e4fd0e6d3d9aeec885b4fc4905eb9.jpg" alt="摄影作品">
+                    <p class="photo-title">作品 7</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/725867ef09e788c10bd16bff8caeffce_720.jpg" alt="摄影作品">
+                    <p class="photo-title">作品 8</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/8c833fa526cc7ed6e177a61a5dc38b42_720.jpg" alt="摄影作品">
+                    <p class="photo-title">作品 9</p>
+                </div>
+                <div class="photo-item">
+                    <img src="images/b925ad53a7148d34a2e3dc3b6f478d24_720.jpg" alt="摄影作品">
+                    <p class="photo-title">作品 10</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>联系我</h2>
+            <p>微信：my_wechat</p>
+            <p>邮箱：example@email.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 我的个人主页 | 用 ❤️ 制作</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
